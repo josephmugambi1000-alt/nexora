@@ -1,0 +1,178 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+  background: #111111;
+
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  color: #00ffff;
+
+  text-shadow:
+    0 0 10px #00ffff,
+    0 0 20px #00ffff;
+font-size: 24px;
+white-space: nowrap;
+}
+
+.nav-links a {
+  color: white;
+
+  text-decoration: none;
+
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  color: #00ffff;
+}
+.start-btn {
+  background: #00ffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.start-btn:hover {
+  box-shadow: 0 0 20px #00ffff;
+}
+.login-box {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 250px;
+}
+
+.login-box input {
+  margin-bottom: 10px;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: none;
+}
+
+.login-box button {
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  background: #00ffff;
+}
+
+.login-box p {
+  text-align: center;
+}
+.login-box button:hover {
+  box-shadow: 0 0 20px #00ffff;
+}
+/* MODERN DASHBOARD GRID */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* MODERN CARD DESIGN */
+.card {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  color: #00ffff;
+
+  border: 1px solid #222;
+
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffff;
+}
+/* MAIN LAYOUT */
+.app-layout {
+  display: flex;
+  height: 100vh;
+  background: #0a0a0a;
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 180px;
+  background: #111;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  color: #00ffff;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background: #00ffff;
+  color: black;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+/* GRID (already exists but we improve it) */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #00ffff;
+  border: 1px solid #222;
+}
+.sidebar a {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background: #00ffff;
+  color: black;
+}
